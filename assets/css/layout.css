@@ -1,0 +1,13 @@
+.navbar {
+  width: 75px;
+}
+
+.content {
+  padding: 50px;
+}
+
+@media (max-width: 992px) {
+  .content {
+    padding: 0 30px 30px;
+  }
+}

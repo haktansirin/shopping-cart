@@ -1,0 +1,50 @@
+body {
+  color: var(--text-color);
+  font-family: var(--font-family);
+  background-color: var(--body-bg-color);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--text-color);
+}
+
+input,
+button,
+select {
+  color: var(--text-color);
+  border: none;
+  background-color: transparent;
+}
+
+select {
+  font-weight: 500;
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  background: url("../img/icon-chevron-down.svg") no-repeat right 10px center;
+  background-size: 20px;
+  padding: 10px 50px 10px 15px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+:is(input, button, textarea, select):focus {
+  outline: none;
+}
+
+@media (max-width: 992px) {
+  header {
+    padding: 30px;
+  }
+}

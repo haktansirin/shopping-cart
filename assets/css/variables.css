@@ -1,0 +1,12 @@
+:root {
+  --body-bg-color: #fff0e5;
+  --primary-color: #445160;
+  --secondary-color: #f5e5d9;
+  --font-family: "Rubik", sans-serif;
+  --text-color: #445160;
+  --white-color: #fff;
+  --light-color: #cfdde6;
+  --border-color: #f0f0f4;
+  --radius-base: 10px;
+  --transition-base: 0.3s all;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Apple Store</title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="navbar-icon"></div>
+      </div>
+      <a href="index.html" class="logo bi bi-apple"></a>
+      <div class="shopping-cart js-shopping-cart opacity-0">
+        <button
+          type="button"
+          class="shopping-cart-btn bi bi-basket3 js-shopping-cart-btn"
+        >
+          <span class="shopping-cart-amount js-shopping-cart-amount"></span>
+        </button>
+        <div class="shopping-cart-content">
+          <div class="shopping-cart-list js-shopping-cart-list"></div>
+          <a href="cart-detail.html" class="button-primary w-100 mt-3 js-"
+            >Alışverişi Tamamla</a
+          >
+        </div>
+      </div>
+    </header>
+    <main class="content">
+      <div class="cart-detail">
+        <div class="cart-detail-list js-cart-detail-list"></div>
+        <div class="d-flex justify-content-end align-items-center gap-2 mb-3">
+          Genel Toplam:
+          <strong class="js-total"></strong>
+        </div>
+        <div class="d-flex justify-content-end">
+          <a href="index.html" class="button-primary">Onayla ve öde</a>
+        </div>
+      </div>
+    </main>
+    <script src="assets/js/cartDetail.js"></script>
+  </body>
+</html>
